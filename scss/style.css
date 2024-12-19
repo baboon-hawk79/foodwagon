@@ -52,7 +52,7 @@ button {
 .container nav .navbar-actions .user-control .food-search-text {
   font-weight: 700;
 }
-.container nav .navbar-actions button {
+.container nav .navbar-actions a {
   width: 118px;
   height: 46px;
   border: none;
@@ -64,8 +64,9 @@ button {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  text-decoration: none;
 }
-.container nav .navbar-actions button .login-text {
+.container nav .navbar-actions a .login-text {
   font-size: 18px;
   font-weight: 700;
   color: #FFB800;
@@ -459,6 +460,7 @@ button {
   padding-top: 120px;
   margin-bottom: 150px;
 }
+
 .container main .advertising .curved-edge {
   --c: 180px;
   height: 300px;
@@ -466,10 +468,11 @@ button {
   position: relative;
   top: 924px;
   aspect-ratio: 3/2;
-  -webkit-mask: radial-gradient(60% var(--c) at top, rgba(0, 0, 0, 0) calc(100% - 1px), #000);
+  -webkit-mask: radial-gradient(60% var(--с) at top, rgba(0, 0, 0, 0) calc(100% - 1px), #000);
           mask: radial-gradient(60% var(--c) at top, rgba(0, 0, 0, 0) calc(100% - 1px), #000);
   background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
 }
+
 .container main .advertising .service-benefits {
   display: flex;
   align-items: center;
@@ -740,4 +743,6 @@ button {
 }
 .container footer .footer-content .rights span {
   font-weight: 700;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
